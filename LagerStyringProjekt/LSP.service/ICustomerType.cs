@@ -9,7 +9,14 @@ namespace LSP.service
 {
     interface ICustomerType
     {
-        CustomerType GetCustomerType(int id);
-        List<CustomerType> GetAllCustomerTypes();
+        void CreateCustomerType(Order order);
+
+        void UpdateCustomerType(Order order);
+
+        void DeleteCustomerType(Order order);
+
+        Order GetCustomerType(int id);
+
+        IEnumerable<Order> GetAllCustomerTypes();
     }
 }
