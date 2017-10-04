@@ -19,7 +19,11 @@ namespace LSP_Admin
 
         private void button1_Click(object sender, EventArgs e)
         {
+           // ServiceRefernce1.ServiceClient client = new ServiceRefernce1.ServiceClient();
+            //string returnString;
 
+            //returnString = client.GetData(textBox1.Text);
+            //label1.Text = returnString; 
         }
     }
 }
