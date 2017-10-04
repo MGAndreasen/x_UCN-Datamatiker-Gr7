@@ -10,15 +10,10 @@ namespace LSP.service
 {
     interface IOrder
     {
-        Order GetOrder();
+        Order GetOrder(int id);
+        
 
-        void AddOrderLine();
-
-        void AddCustomer();
-
-        DateTime GetDate();
-
-
+        void AddCustomer(Order o, Customer c);
 
     }
 }

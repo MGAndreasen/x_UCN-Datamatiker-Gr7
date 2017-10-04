@@ -9,6 +9,7 @@ namespace LSP.service
 {
     interface ICustomerType
     {
-        CustomerType GetCustomerType();
+        CustomerType GetCustomerType(int id);
+        List<CustomerType> GetAllCustomerTypes();
     }
 }
