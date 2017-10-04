@@ -6,7 +6,7 @@ namespace LSP.models
 {
     class Stock
     {
-        public int productId { get; set; }
+        public int ProductId { get; set; }
         public int Amount { get; set; }
     }
 }
