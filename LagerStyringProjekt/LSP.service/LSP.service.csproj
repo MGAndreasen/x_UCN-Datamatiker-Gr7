@@ -45,9 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ICustomerType.cs" />
-	<Compile Include="IOrder.cs" />
+    <Compile Include="IOrder.cs" />
     <Compile Include="IOrderLine.cs" />
-    <Compile Include="IService1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="LSPService.cs" />
   </ItemGroup>
