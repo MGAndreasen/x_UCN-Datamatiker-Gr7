@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LSP.models
 {
-    class Product
+    public class Product
     {
         public int Id { get; set; }
         public double Price { get; set; }
