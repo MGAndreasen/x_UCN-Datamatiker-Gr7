@@ -44,6 +44,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ICustomer.cs" />
     <Compile Include="ICustomerType.cs" />
     <Compile Include="ILSPService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
