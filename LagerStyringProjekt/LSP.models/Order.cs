@@ -5,7 +5,7 @@ using System.DateTime;
 
 namespace LSP.models
 {
-    class Order
+    public class Order
     {
         public DateTime Date { get; set; }
         public DateTime DeliveryDate { get; set; }

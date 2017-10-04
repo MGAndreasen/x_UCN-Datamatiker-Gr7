@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LSP.models
 {
-    class City
+    public class City
     {
         public int ZipCode { get; set; }
         public string CityName { get; set; }
