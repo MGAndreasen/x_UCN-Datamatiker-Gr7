@@ -9,6 +9,7 @@ namespace LSP.models
         public int Id { get; set; }
         public double Price { get; set; }
         public string Name { get; set; }
+        public Product[] ProductArray { get; set; }
 
         //productgroup mangler
     }
