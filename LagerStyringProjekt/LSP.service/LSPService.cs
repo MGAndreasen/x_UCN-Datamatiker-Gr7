@@ -8,7 +8,7 @@ using System.Text;
 namespace LSP.service
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in both code and config file together.
-    public class LSPService : IService1
+    public class LSPService : ICustomer
     {
         public string GetData(int value)
         {
