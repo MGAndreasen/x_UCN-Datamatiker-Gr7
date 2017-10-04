@@ -11,8 +11,7 @@ namespace LSP.models
         public DateTime Date { get; set; }
         public DateTime DeliveryDate { get; set; }
         public int CustomerId { get; set; }
-        public double TotalPrice { get; set }
-        public int OrderLineId { get; set; }
+        public double TotalPrice { get; set; }
 
     }
 }
