@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP.servicehost", "LSP.servicehost\LSP.servicehost.csproj", "{FB39B68F-7472-4694-AC40-3CA398F5552E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP.service", "LSP.service\LSP.service.csproj", "{64260F48-7386-406A-A4D1-593C4067C7E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP-Admin", "LSP-Admin\LSP-Admin.csproj", "{8CB6E3F1-559C-4C7F-AFA0-C65EC678AC92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{FB39B68F-7472-4694-AC40-3CA398F5552E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB39B68F-7472-4694-AC40-3CA398F5552E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB39B68F-7472-4694-AC40-3CA398F5552E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64260F48-7386-406A-A4D1-593C4067C7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64260F48-7386-406A-A4D1-593C4067C7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64260F48-7386-406A-A4D1-593C4067C7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64260F48-7386-406A-A4D1-593C4067C7E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB6E3F1-559C-4C7F-AFA0-C65EC678AC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB6E3F1-559C-4C7F-AFA0-C65EC678AC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB6E3F1-559C-4C7F-AFA0-C65EC678AC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB6E3F1-559C-4C7F-AFA0-C65EC678AC92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
