@@ -13,7 +13,7 @@ namespace LSP.service
     public interface ILSPService
     {
         [OperationContract]
-        string GetData(int value);
+        string GetData(string value);
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
