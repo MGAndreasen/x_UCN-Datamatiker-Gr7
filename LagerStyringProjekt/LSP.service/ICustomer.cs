@@ -4,7 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
-
+using LSP.models; 
 
 namespace LSP.service
 {
@@ -13,8 +13,8 @@ namespace LSP.service
     public interface ICustomer
 
     {
-        // Customer CreateNewCustomer();
-        string DeleteCustomer();
+        Customer CreateNewCustomer();
+        Customer DeleteCustomer();
         string UpdateCustomer();
         string ReadCustomer();
 
