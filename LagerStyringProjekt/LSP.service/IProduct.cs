@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace LSP.service
 {
-    public interface IProduct
+    interface IProduct
     {
-        void CreateProduct(int id, double price, string name, ProductGroup productGroup);
-
     }
 }
