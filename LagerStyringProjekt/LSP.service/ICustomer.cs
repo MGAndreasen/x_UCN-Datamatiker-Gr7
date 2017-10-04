@@ -8,15 +8,12 @@ using LSP.models;
 
 namespace LSP.service
 {
-    
-
     public interface ICustomer
-
     {
-        void CreateNewCustomer(Customer cust);
-        void DeleteCustomer(Customer cust);
-        string UpdateCustomer(Customer cust);
-        Customer getCustomer(int phoneNumber);
+        Customer CreateNewCustomer();
+        Customer DeleteCustomer();
+        string UpdateCustomer();
+        string ReadCustomer();
 
         string GetCustomerName();
         string SetCustomerName();
