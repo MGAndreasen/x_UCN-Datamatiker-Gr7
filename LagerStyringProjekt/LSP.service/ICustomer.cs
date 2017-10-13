@@ -10,31 +10,10 @@ namespace LSP.service
 {
     public interface ICustomer
     {
-        void CreateNewCustomer(Customer cust);
-        void DeleteCustomer(Customer cust);
-        void UpdateCustomer(Customer cust);
-        string getCustomer(int phoneNumber);
-
-        string GetCustomerName();
-        string SetCustomerName();
-
-        string GetCustomerLastName();
-        string SetCustomerLastName();
-
-        int GetCustomerPhoneNumber();
-        int SetCustomerPhoneNumber();
-
-        int GetCustomerCvr();
-        int SetCustomerCvr();
-
-        int GetCustomerAddress();
-        int SetCurstomerAddress();
-
-        int GetCustomerZip();
-        int SetCustomerZip();
-
-
-
-
+        void CreateNewCustomer(Customer customer);
+        void DeleteCustomer(Customer customer);
+        void UpdateCustomer(Customer customer);
+        Customer GetCustomer(int phoneNumber);
+        IEnumerable<Customer> GetAllCustomers();
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LSP.service
 {
-    interface ICustomerType
+    public interface ICustomerType
     {
         void CreateCustomerType(Order order);
 

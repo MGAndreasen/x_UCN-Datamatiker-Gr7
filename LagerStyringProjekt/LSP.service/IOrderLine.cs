@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LSP.service
 {
-    interface IOrderLine
+    public interface IOrderLine
     {
         int GetOrderId();
 

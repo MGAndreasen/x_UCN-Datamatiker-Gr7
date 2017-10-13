@@ -8,7 +8,7 @@ using LSP.models;
 
 namespace LSP.service
 {
-    interface IOrder
+    public interface IOrder
     {
         void CreateOrder(Order order);
 
