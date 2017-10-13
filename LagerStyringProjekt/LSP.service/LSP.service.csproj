@@ -57,6 +57,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\LSP.bll\LSP.bll.csproj">
+      <Project>{1c5a6381-142c-4b5e-9db5-e2c6630e11c7}</Project>
+      <Name>LSP.bll</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LSP.models\LSP.models.csproj">
       <Project>{AD545909-4DE9-410D-B533-A44160E75A5D}</Project>
       <Name>LSP.models</Name>

@@ -9,11 +9,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP.service", "LSP.service\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP-Admin", "LSP-Admin\LSP-Admin.csproj", "{8CB6E3F1-559C-4C7F-AFA0-C65EC678AC92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP.models", "LSP.models\LSP.models.csproj", "{AD545909-4DE9-410D-B533-A44160E75A5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSP.models", "LSP.models\LSP.models.csproj", "{AD545909-4DE9-410D-B533-A44160E75A5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP.bll", "LSP.bll\LSP.bll.csproj", "{1C5A6381-142C-4B5E-9DB5-E2C6630E11C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSP.bll", "LSP.bll\LSP.bll.csproj", "{1C5A6381-142C-4B5E-9DB5-E2C6630E11C7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{72E04551-CE31-4EB5-AFAF-C2F9F78E4132} = {72E04551-CE31-4EB5-AFAF-C2F9F78E4132}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP.db", "LSP.db\LSP.db.csproj", "{72E04551-CE31-4EB5-AFAF-C2F9F78E4132}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSP.db", "LSP.db\LSP.db.csproj", "{72E04551-CE31-4EB5-AFAF-C2F9F78E4132}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AD545909-4DE9-410D-B533-A44160E75A5D} = {AD545909-4DE9-410D-B533-A44160E75A5D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
