@@ -12,7 +12,7 @@ namespace LSP.service
 
         void AddProduct();
 
-        double getPrice();
+        double GetPrice();
 
 
 
