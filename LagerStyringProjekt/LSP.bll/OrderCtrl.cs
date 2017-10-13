@@ -5,7 +5,7 @@ using LSP.models;
 
 namespace LSP.bll
 {
-    public class OrderCtrl : IController<Order>
+    public class OrderCtrl : ICRUD<Order>, IGetAll<Order>
     {
         public void Create(Order entity)
         {

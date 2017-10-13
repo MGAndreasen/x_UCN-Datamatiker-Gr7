@@ -5,11 +5,10 @@ using LSP.models;
 
 namespace LSP.bll
 {
-    public interface IController<T>
+    public interface ICRUD<T>
     {
         void Create(T entity);
         T Get(int id);
-        IEnumerable<T> GetAll();
         void Update(T entity);
         void Delete(int id);
     }
