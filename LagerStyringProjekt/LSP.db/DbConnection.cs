@@ -4,5 +4,7 @@ namespace LSP.db
 {
     public class DbConnection
     {
+
+
     }
 }
