@@ -25,7 +25,7 @@ namespace DbLayer
             using (SqlConnection sqlCon = new SqlConnection(this.connectionString))
             {
                 List<Customer> acList = new List<Customer>();
-                SqlCommand cmd = new SqlCommand("Select Id, CustomerId, Balance from dbo.Account", sqlCon);
+                SqlCommand cmd = new SqlCommand("Select Id, navn, efternavn, adresse, city, postnummer from dbo.Person", sqlCon);
                 sqlCon.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
 
