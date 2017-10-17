@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSP.db", "LSP.db\LSP.db.csp
 		{AD545909-4DE9-410D-B533-A44160E75A5D} = {AD545909-4DE9-410D-B533-A44160E75A5D}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbLayer", "DbLayer\DbLayer.csproj", "{0205E363-114B-4E65-922C-66DE41FD7420}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{72E04551-CE31-4EB5-AFAF-C2F9F78E4132}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72E04551-CE31-4EB5-AFAF-C2F9F78E4132}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72E04551-CE31-4EB5-AFAF-C2F9F78E4132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0205E363-114B-4E65-922C-66DE41FD7420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0205E363-114B-4E65-922C-66DE41FD7420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0205E363-114B-4E65-922C-66DE41FD7420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0205E363-114B-4E65-922C-66DE41FD7420}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
