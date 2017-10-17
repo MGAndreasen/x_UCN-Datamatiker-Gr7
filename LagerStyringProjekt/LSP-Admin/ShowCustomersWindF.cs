@@ -16,25 +16,25 @@ namespace LSP_Admin
     {
 
         Customer Cust;
+        IDbConnection dbCon;
 
         public ShowCustomersWindF()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-          //  Customer Cust = new Customer();
-
-          //  listView1.Items.Add.DBConnection.GetAllAccounts(); 
-
-
-        }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
             
 
+
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            dbCon.GetAllAccounts(id, navn); 
 
 
         }
