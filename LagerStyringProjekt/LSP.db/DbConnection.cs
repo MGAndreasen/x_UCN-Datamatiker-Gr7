@@ -2,7 +2,7 @@
 
 namespace LSP.db
 {
-    public class Class1
+    public class DbConnection
     {
     }
 }
