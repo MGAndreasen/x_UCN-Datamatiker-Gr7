@@ -53,6 +53,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowCustomersWindF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowCustomersWindF.Designer.cs">
+      <DependentUpon>ShowCustomersWindF.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -65,6 +71,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ShowCustomersWindF.resx">
+      <DependentUpon>ShowCustomersWindF.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -80,6 +89,12 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LSP.models\LSP.models.csproj">
+      <Project>{AD545909-4DE9-410D-B533-A44160E75A5D}</Project>
+      <Name>LSP.models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

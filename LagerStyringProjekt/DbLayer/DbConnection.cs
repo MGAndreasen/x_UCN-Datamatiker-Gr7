@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Configuration;
 using System.Data.SqlClient;
+using LSP.models;
 
 namespace DbLayer
 {
@@ -20,26 +21,14 @@ namespace DbLayer
 
         }
 
-        public List<Customer> getAllAcounts()
+        public List<Customer> getAllAcounts(int id, string navn)
         {
             using (SqlConnection sqlCon = new SqlConnection(this.connectionString))
             {
-                List<Customer> acList = new List<Customer>();
-                SqlCommand cmd = new SqlCommand("Select Id, CustomerId, Balance from dbo.Account", sqlCon);
                 sqlCon.Open();
-                SqlDataReader reader = cmd.ExecuteReader();
-
-                while (reader.Read())
-                {
-                    Customer accmeldmig = new Customer();
-                    accmeldmig.AccountId = reader.GetInt32(0);
-                    accmeldmig.CustomerId = reader.GetInt32(1);
-                    accmeldmig.Balance = reader.GetFloat(2);
-                    acList.Add(accmeldmig);
-
-                }
-                return acList;
-
+                SqlCommand cmd = new SqlCommand("Select from dba.Person Id, navn, efternavn, adresse, city, postnummer VALUES (@id, @navn, @efternavn, @adresse, @city, @postnummer)", sqlCon);
+                cmd.Parameters.Add("@id", sqlDbType.Int).Value = id;
+                cmd.Parameters.Add("@navn", sqlDbType.VarChar).Value = navn; 
 
 
             }
